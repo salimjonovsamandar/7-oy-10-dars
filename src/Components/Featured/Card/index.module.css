@@ -1,0 +1,33 @@
+.card{
+    text-align: center;
+    padding: 16px;
+    border-radius: 16px;
+    width: 352px;
+box-shadow: 0px 8px 10px -6px rgba(0, 0, 0, 0.1),0px 20px 25px -5px rgba(0, 0, 0, 0.1);
+background: var(--body-bg-color);
+}
+.card img{
+    width: 320px;
+height: 192px;
+border-radius: 12px;
+object-fit: cover;
+}
+.card h3{
+    margin-top: 32px;
+    color: var(--home-title-big-color);
+    margin-bottom: 8px;
+font-size: 20px;
+font-weight: 600;
+line-height: 28px;
+letter-spacing: 1px;
+text-align: center;
+text-transform: capitalize;
+}
+.card p{
+    color: var(--btn-hover-color);
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
+}
